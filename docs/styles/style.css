@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #101010;
+    color: #fff;
+}
+
+@font-face {
+  font-family: "Playwrite NL";
+  src: url('../fonts/PlaywriteNL-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Victor Mono",
+    src: url('../fonts/VictorMono-Bold.ttf') format('truetype');
+}
+
+.container {
+    width: 100%;
+    min-height: 90vh;
+    min-height: 90dvh;
+}
+
+.greeting-container {
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.greeting-container .greeting {
+    text-align: center;
+    font-family: "Playwrite NL";
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.timer-container {
+    width: 100%;
+}
+
+.timer-container .timer {
+    text-align: center;
+    font-size: 8vw;
+    font-family: "Victor Mono";
+    font-weight: bold;
+}
