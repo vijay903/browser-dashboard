@@ -1,0 +1,19 @@
+{
+    "links": [
+        {
+            "name": "Google",
+            "href": "https://google.com",
+            "image": "/images/icons/google.svg"
+        },
+        {
+            "name": "YouTube",
+            "href": "https://youtube.com",
+            "image": "/images/icons/youtube.svg"
+        },
+        {
+            "name": "GitHub",
+            "href": "https://github.com",
+            "image": "/images/icons/github.svg"
+        }
+    ]
+}
